@@ -9,7 +9,7 @@ export const siteConfig: SiteConfig = {
 	title: "GodZe的个人博客",
 
 	// 站点副标题
-	subtitle: "",
+	subtitle: "123",
 
 	// 站点 URL
 	site_url: "https://firefly.cuteleaf.cn",
