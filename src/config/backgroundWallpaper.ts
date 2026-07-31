@@ -75,17 +75,19 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "大家好我是电棍",
+			title: "Vafail的个人博客",
 			// 主页横幅主标题字体大小
 			titleSize: "4.5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"练得身形似鹤形，千株松下两函经",
+				"我来问道无馀说，云在青霄水在瓶",
+				// "In Reddened Chrysalis, I Once Rest",
+				// "From Shattered Sky, I Free Fall",
+				// "Amidst Silenced Stars, I Deep Sleep",
+				// "Upon Lighted Fyrefly, I Soon Gaze",
+				// "From Undreamt Night, I Thence Shine",
+				// "In Finalized Morrow, I Full Bloom",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
@@ -95,7 +97,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				// 打字机关闭 → 每次刷新随机显示一条副标题
 				enable: true,
 				// 打字速度（毫秒）
-				speed: 100,
+				speed: 200,
 				// 删除速度（毫秒）
 				deleteSpeed: 50,
 				// 完全显示后的暂停时间（毫秒）
