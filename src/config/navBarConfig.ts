@@ -68,18 +68,18 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	});
 
 	// 关于及其子菜单
-	links.push({
-		name: "关于",
-		url: "#",
-		icon: "material-symbols:info",
-		children: [
-			// 打赏
-			LinkPresets.Sponsor,
+	// links.push({
+	// 	name: "关于",
+	// 	url: "#",
+	// 	icon: "material-symbols:info",
+	// 	children: [
+	// 		// 打赏
+	// 		LinkPresets.Sponsor,
 
-			// 关于页面
-			LinkPresets.About,
-		],
-	});
+	// 		// 关于页面
+	// 		LinkPresets.About,
+	// 	],
+	// });
 
 	// 自定义导航栏链接
 	links.push({
@@ -90,22 +90,22 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
+				url: "https://github.com/godze6p",
 				external: true,
 				icon: "fa7-brands:github",
 			},
 			{
 				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
+				url: "https://gitee.com/shujukukeshe",
 				external: true,
 				icon: "fa7-brands:gitee",
 			},
-			{
-				name: "QQ交流群",
-				url: "https://qm.qq.com/q/ZGsFa8qX2G",
-				external: true,
-				icon: "fa7-brands:qq",
-			},
+			// {
+			// 	name: "QQ交流群",
+			// 	url: "https://qm.qq.com/q/ZGsFa8qX2G",
+			// 	external: true,
+			// 	icon: "fa7-brands:qq",
+			// },
 			{
 				name: "Firefly文档",
 				url: "https://docs-firefly.cuteleaf.cn",
@@ -180,11 +180,11 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		icon: "material-symbols:chat",
 		pageKey: "guestbook",
 	},
-	About: {
-		name: "关于我",
-		url: "/about/",
-		icon: "material-symbols:person",
-	},
+	// About: {
+	// 	name: "关于我",
+	// 	url: "/about/",
+	// 	icon: "material-symbols:person",
+	// },
 	Bangumi: {
 		name: "番组计划",
 		url: "/bangumi/",
