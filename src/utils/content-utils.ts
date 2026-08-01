@@ -103,10 +103,23 @@ export async function getCategoryList(): Promise<Category[]> {
 		count[categoryName] = count[categoryName] ? count[categoryName] + 1 : 1;
 	});
 
+	// 定义你想要的分类顺序，排在前面的优先显示
+	const customOrder = ["C++", "boast", "Qt", "聊天项目", "后端", "教程"];
+
 	const lst = Object.keys(count).sort((a, b) => {
-		return (
-			count[b] - count[a] || a.toLowerCase().localeCompare(b.toLowerCase())
-		);
+	const indexA = customOrder.indexOf(a);
+	const indexB = customOrder.indexOf(b);
+	
+	// 如果两个都在自定义列表里，按列表顺序排
+	if (indexA !== -1 && indexB !== -1) {
+		return indexA - indexB;
+	}
+	// 如果在列表里的排前面，不在的排后面
+	if (indexA !== -1) return -1;
+	if (indexB !== -1) return 1;
+	
+	// 都不在列表里的，继续按字母排
+	return a.toLowerCase().localeCompare(b.toLowerCase());
 	});
 
 	const ret: Category[] = [];

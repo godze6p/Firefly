@@ -37,7 +37,7 @@ export const galleryConfig: GalleryConfig = {
 		{
 			id: "Family Guy",
 			name: "恶搞之家",
-			description: "",
+			description: "giggity",
 			location: "火星",
 			date: "2026-01-01",
 			tags: ["恶搞之家"],
