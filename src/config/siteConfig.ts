@@ -178,7 +178,7 @@ export const siteConfig: SiteConfig = {
 			enablePythonMarkdownAdmonitions: false,
 		},
 		// 文章页底部的"上次编辑时间"卡片开关
-		showLastModified: true,
+		showLastModified: false,
 		// 文章过期阈值（天数），超过此天数才显示"上次编辑"卡片
 		outdatedThreshold: 30,
 		// 是否开启分享海报生成功能

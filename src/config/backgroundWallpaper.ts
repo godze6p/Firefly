@@ -83,8 +83,8 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			titleSize: "4.5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"练得身形似鹤形，千株松下两函经",
-				"我来问道无馀说，云在青霄水在瓶",
+				"练得身形似鹤形 千株松下两函经",
+				"我来问道无馀说 云在青霄水在瓶",
 				// "In Reddened Chrysalis, I Once Rest",
 				// "From Shattered Sky, I Free Fall",
 				// "Amidst Silenced Stars, I Deep Sleep",
