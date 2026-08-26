@@ -104,7 +104,7 @@ export async function getCategoryList(): Promise<Category[]> {
 	});
 
 	// 定义你想要的分类顺序，排在前面的优先显示
-	const customOrder = ["C++", "boast", "Qt", "聊天项目", "后端", "教程"];
+	const customOrder = ["C++", "boost", "Qt", "Linux", "后端", "教程"];
 
 	const lst = Object.keys(count).sort((a, b) => {
 	const indexA = customOrder.indexOf(a);
